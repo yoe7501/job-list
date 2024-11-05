@@ -1,0 +1,51 @@
+body {
+  @apply flex flex-col items-center h-screen bg-LightGrayishCyanBackground bg-no-repeat;
+}
+
+.jobFilter {
+  @apply h-auto bg-white w-full  flex flex-row gap-3 items-center;
+}
+
+.jobListing {
+  @apply flex flex-col gap-12 mt-48 mx-5 justify-between max-w-full;
+}
+
+.jobCard {
+  @apply flex flex-col bg-white rounded-md p-5 shadow-xl sm:flex-row hover:border-l-4 hover:border-teal-500 relative;
+}
+
+.new {
+  @apply text-white px-2 rounded-full;
+}
+
+.logoImage {
+  @apply size-[48px] sm:size-[88px]  sm:mx-5 absolute -top-8 sm:relative sm:top-0;
+}
+
+.header {
+  @apply flex flex-row gap-4  font-semibold;
+}
+
+.position {
+  @apply text-DesaturatedDarkCyan font-semibold;
+}
+
+.buttonBox {
+  @apply flex flex-row flex-wrap gap-3 sm:items-center sm:ml-14;
+}
+
+.filterButton {
+  @apply bg-LightGrayishCyanBackground rounded-md p-2 hover:bg-DesaturatedDarkCyan hover:text-white h-[32px];
+}
+
+.textInfo {
+  @apply flex flex-col gap-2;
+}
+
+.xButton {
+  @apply h-[40px] bg-DesaturatedDarkCyan hover:bg-VeryDarkGrayishCyan text-white p-1 rounded-r-md;
+}
+
+.filter {
+  @apply bg-LightGrayishCyanBackground rounded-l-md p-2;
+}/*# sourceMappingURL=styles.css.map */

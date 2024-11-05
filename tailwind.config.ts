@@ -11,6 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        DesaturatedDarkCyan: "var(--DesaturatedDarkCyan)",
+        LightGrayishCyanBackground: "var(--LightGrayishCyanBackground)",
+        LightGrayishCyan: "var(--LightGrayishCyan)",
+        DarkGrayishCyan: "var(--DarkGrayishCyan)",
+        VeryDarkGrayishCyan: "var(--VeryDarkGrayishCyan)",
       },
     },
   },

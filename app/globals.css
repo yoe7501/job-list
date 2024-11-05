@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --DesaturatedDarkCyan: hsl(180, 29%, 50%);
+  --LightGrayishCyanBackground: hsl(180, 52%, 96%);
+  --LightGrayishCyan: hsl(180, 31%, 95%);
+  --DarkGrayishCyan: hsl(180, 8%, 52%);
+  --VeryDarkGrayishCyan: hsl(180, 14%, 20%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +20,16 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background-image: url('/images/bg-header-mobile.svg'); 
+  background-position: top center;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (min-width: 375px) { 
+  body{
+    background-image: url('/images/bg-header-desktop.svg'); 
+    background-position: top center;
+  }
+}
+
+
