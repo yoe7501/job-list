@@ -1,8 +1,8 @@
 import Jobs from "../../data.json"
-import { NextRequest, NextResponse } from "next/server"
+import {NextResponse } from "next/server"
 
-export async function  GET(request: NextRequest) {
-    const body = await Jobs;
+export  function  GET() {
+    const body =  Jobs;
 
     return NextResponse.json(body, {status: 200});
 }
